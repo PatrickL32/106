@@ -1,0 +1,13 @@
+main{
+    display:flex;
+    height:100vh;
+}
+
+#list{
+    flex:2;
+    background-color: blueviolet;
+}
+#form{
+    flex:2;
+    background-color: turquoise;
+}
