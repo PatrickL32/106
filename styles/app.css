@@ -2,12 +2,64 @@ main{
     display:flex;
     height:100vh;
 }
-
 #list{
-    flex:2;
-    background-color: blueviolet;
+    flex:3;
+    background-color:violet;
 }
 #form{
-    flex:2;
+    flex:3;
     background-color: turquoise;
+}
+
+/* Task section */
+.task-container {
+    margin: 15px 0px;
+    border-left: 4px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 80x rgba(0,0,0,0.1);
+}
+
+.task-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-information {
+    flex: 3;
+}
+
+.task-information h5 {
+    color: #1e90ff;
+    font-size: 18px;
+}
+
+.task-information p {
+    margin: 0;
+    color: #555555;
+    font-size: 14px;
+}
+
+.task-status {
+    background-color: #e6f2ff;
+    color: #1e90ff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.task-date-budget {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+    color: #777777;
 }
