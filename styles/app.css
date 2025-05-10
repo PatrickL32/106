@@ -3,7 +3,7 @@ main{
     height:100vh;
 }
 #list{
-    flex:3;
+    flex:2;
     background-color:violet;
 }
 #form{
@@ -17,17 +17,17 @@ main{
     border-left: 4px solid #e0e0e0;
     border-radius: 8px;
     background-color: white;
-    box-shadow: 0 2px 80x rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1)!important;
 }
 
 .task-container:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(182, 47, 47, 0.3) !important;
 }
 
 .task {
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
